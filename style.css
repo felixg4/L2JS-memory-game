@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+#grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 20vw);
+    gap: 1vmin;
+}
+img {
+    max-height: 19vmin;
+    max-width: 19vmin;
+}
